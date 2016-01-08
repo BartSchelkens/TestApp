@@ -1,0 +1,19 @@
+{
+  "version": "1.0.0-*",
+  "description": "Constructiv.BE.CS.DmfA.DataAccessLayer Class Library",
+  "authors": [ "tomboo" ],
+  "tags": [ "" ],
+  "projectUrl": "",
+  "licenseUrl": "",
+  "frameworks": {
+    "dnx451": { }
+  },
+  "dependencies": {
+    "Microsoft.AspNet.Mvc": "6.0.0-*",
+    "Microsoft.AspNet.Diagnostics": "1.0.0-*",
+    "Constructiv.BE.CS.DmfA.InfrastructureLayer": "1.0.0-*",
+    "EntityFramework.InMemory": "7.0.0-*",
+    "EntityFramework.MicrosoftSqlServer": "7.0.0-*",
+    "Constructiv.BE.CS.DmfA.DomainLayer": "1.0.0-*"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "version": "1.0.0-*",
+  "description": "Constructiv.BE.CS.DmfA.PresentationLayerTest Class Library",
+  "authors": [ "tomboo" ],
+  "tags": [ "" ],
+  "projectUrl": "",
+  "licenseUrl": "",
+  "dependencies": {
+    "RhinoMocks": "3.6.1",
+    "Constructiv.BE.CS.DmfA.PresentationLayer": "1.0.0-*",
+    "Constructiv.BE.CS.DmfA.ApplicationLayer": "1.0.0-*",
+    "Constructiv.BE.CS.DmfA.DomainLayer": "1.0.0-*",
+    "xunit": "2.1.0",
+    "SpecFlow.Dnx": "1.0.0-beta1"
+  },
+  "commands": {
+        "create-specs": "SpecFlow.Dnx",
+        "test": "xunit.runner.dnx"
+    },
+    "scripts": {
+        "prebuild": "dnx create-specs"
+    },
+
+  "frameworks": {
+    "dnx451": { }
+
+  }
+}

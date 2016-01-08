@@ -1,0 +1,14 @@
+﻿{
+  "AppSettings": {
+    "SiteTitle": "Software DmfA Voordelen"
+  },
+  "Data": {
+    "DefaultConnection": {
+      // Use a shared (and running) LocalDB database when executing in IIS e.g.
+      // "Server=(localdb)\\.\\IIS_DB;Database=MusicStore;Trusted_Connection=False;MultipleActiveResultSets=true;User ID=iis_login;Password=********"
+      //"Connectionstring": "Server=(localdb)\\MSSQLLocalDB;Database=DmfA;Trusted_Connection=True;MultipleActiveResultSets=true;Connect Timeout=30;"
+      "ConnectionString": "Server=HI75839\\SQLEXPRESS;Database=dmfa;Trusted_Connection=True;MultipleActiveResultSets=true"
+    }
+
+  }
+}

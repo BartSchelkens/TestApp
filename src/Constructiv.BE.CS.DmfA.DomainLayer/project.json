@@ -1,0 +1,14 @@
+{
+  "version": "1.0.0-*",
+  "description": "Constructiv.BE.CS.DmfA.DomainLayer Class Library",
+  "authors": [ "tomboo" ],
+  "tags": [ "" ],
+  "projectUrl": "",
+  "licenseUrl": "",
+  "frameworks": {
+    "dnx451": { }
+  },
+  "dependencies": {
+    "Microsoft.AspNet.Mvc": "6.0.0-*"
+  }
+}
